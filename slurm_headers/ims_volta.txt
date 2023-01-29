@@ -1,0 +1,10 @@
+#!/bin/bash
+#SBATCH --partition=volta
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=40
+#SBATCH --mem=350gb
+#SBATCH --gres=gpu:4
+#SBATCH --time=08:00:00
+#SBATCH --job-name=blah
+
+# Paste below

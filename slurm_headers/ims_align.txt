@@ -1,0 +1,10 @@
+#!/bin/bash
+#SBATCH --partition=align
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=12
+#SBATCH --mem=48gb
+#SBATCH --gres=gpu:2
+#SBATCH --time=08:00:00
+#SBATCH --job-name=blah
+
+# Paste below
