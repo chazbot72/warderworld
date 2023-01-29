@@ -2,7 +2,7 @@
 #SBATCH --partition=em
 #SBATCH --nodes=1
 #SBATCH --ntasks-per-node=16
-#SBATCH --mem=5gb
+#SBATCH --mem=125gb
 #SBATCH --time=08:00:00
 #SBATCH --job-name=blah
 
